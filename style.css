@@ -127,6 +127,10 @@ body {
   }
 }
 
+.container-fluid h1{
+  display: none;
+}
+
 nav ul li {
   position: relative;
   transition: .5s;
@@ -275,7 +279,7 @@ nav ul li a:hover {
 }
 
 .main-text a:hover {
-  background-color: rgb(245, 8, 39);
+  background: linear-gradient(rgba(245, 7, 79, 0.75), rgb(120, 132, 209));
   color: #fff;
 }
 
@@ -360,4 +364,17 @@ nav ul li a:hover {
 .youtube .play i {
   font-size: 10px;
   color: #fff;
+}
+
+
+
+@media(max-width:568px) {
+  .new-test img{
+    display: block;
+  }
+}
+@media(max-width:720px) {
+  .footer {
+    display: none;
+  }
 }
